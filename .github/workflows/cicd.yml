@@ -74,7 +74,7 @@ jobs:
       - name: Publish to Registry
         uses: elgohr/Publish-Docker-Github-Action@v5
         with:
-          name: polnt/td_api
+          name: polnt/lms-api
           username: ${{ secrets.DH_USER }}
           password: ${{ secrets.DH_PWD }}
           tags: "latest,${{ steps.tag_version.outputs.new_tag }}"
