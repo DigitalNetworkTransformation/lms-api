@@ -2,11 +2,11 @@ name: CICD
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
     types: 
       - closed
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   tests:
