@@ -1,4 +1,4 @@
-# LMS API
+# LMS API DEMO
 
 Rest API template written with [Typescript](https://www.typescriptlang.org/) and using [Express](https://expressjs.com/) and [MySQL](https://www.mysql.com/).
 
